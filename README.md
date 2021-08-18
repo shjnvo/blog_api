@@ -6,13 +6,13 @@ application up and running.
 Things you may want to cover:
 
 * Ruby version
-
-* System dependencies
-
+  2.7.1
+* Rails Version
+  6.1.3
 * Configuration
-
+  
 * Database creation
-
+  
 * Database initialization
 
 * How to run the test suite
