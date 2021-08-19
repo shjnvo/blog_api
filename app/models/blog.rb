@@ -23,4 +23,8 @@ class Blog < ApplicationRecord
   def published
     self.published_at = Time.zone.now
   end
+
+  def should_generate_new_friendly_id?
+    title_changed? || super
+  end
 end
